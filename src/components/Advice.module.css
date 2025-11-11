@@ -37,7 +37,7 @@
   height: auto;
   max-width: 100%;
   padding-bottom: 1rem;
-  content: url("./src/assets/vectors/pattern-divider-desktop.svg");
+  content: url("/src/assets/vectors/pattern-divider-desktop.svg");
 }
 
 .diceButton {
@@ -75,6 +75,6 @@
   }
 
   .divider img {
-    content: url("./src/assets/vectors/pattern-divider-mobile.svg");
+    content: url("/src/assets/vectors/pattern-divider-mobile.svg");
   }
 }
