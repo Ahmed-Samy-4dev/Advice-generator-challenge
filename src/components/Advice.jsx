@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from './Advice.module.css';
+import dice from "./../assets/vectors/icon-dice.svg";
 
 function Advice() {
   const [advice, setAdvice] = useState("");
@@ -27,7 +28,7 @@ function Advice() {
         <img src="" alt="divider" />
       </div>
       <button className={styles.diceButton} onClick={fetchAdvice}>
-        <img src="./src/assets/vectors/icon-dice.svg" alt="dice icon" className={styles.diceIcon} />
+        <img src={dice} alt="dice icon" className={styles.diceIcon} />
       </button>
     </div>
   );
