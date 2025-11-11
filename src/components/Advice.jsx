@@ -24,7 +24,7 @@ function Advice() {
         {advice}
       </h1>
       <div className={styles.divider}>
-        <img src="./src/assets/vectors/pattern-divider-desktop.svg" alt="divider" />
+        <img src="" alt="divider" />
       </div>
       <button className={styles.diceButton} onClick={fetchAdvice}>
         <img src="./src/assets/vectors/icon-dice.svg" alt="dice icon" className={styles.diceIcon} />
